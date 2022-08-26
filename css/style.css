@@ -1,0 +1,166 @@
+.body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.oop #Lolo {
+    color: #c6c6c6;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 34px;
+    padding: 12px;
+}
+
+#pt {
+    color: rgb(196, 72, 72);
+}
+
+#ag {
+    color: rgb(196, 72, 72);
+}
+
+#line {
+    background-color: #ffffff;
+    height: 1px;
+    margin-bottom: 50px;
+}
+
+.oop {
+    padding: 23px;
+    margin: auto;
+    text-align: center;
+    border: 3px solid red;
+    width: 80%;
+    height: 700px;
+    margin-top: 23px;
+    background: #008080;
+
+
+
+}
+
+.container {
+    color: #c6c6c6;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 34px;
+    padding: 12px;
+
+
+}
+
+input[type="text"] {
+    width: 45%;
+    padding: 12px 12px;
+    overflow: hidden;
+    margin: 12px;
+    box-sizing: border-box;
+    border: #f8f1f1 2px solid;
+    background: #e6b6b6;
+    border-radius: 5px;
+    margin-bottom: 34px;
+}
+
+
+
+
+
+input[type="number"] {
+    width: 45%;
+    padding: 12px 12px;
+    overflow: hidden;
+    margin: 12px;
+    box-sizing: border-box;
+    border: #e0d8ed 2px solid;
+    background: #8856cf;
+    border-radius: 5px;
+    margin-bottom: 34px;
+}
+
+#red {
+    background: red;
+    width: 80px;
+    height: 40px;
+    padding: 0px;
+    margin: 0;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 23px;
+    border: 0;
+}
+
+
+
+.footer {
+    font-size: 48px;
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.fac {
+    font-size: 48px;
+    color: blue;
+    margin-bottom: 23px;
+}
+
+
+.fac2 {
+    font-size: 48px;
+    color: blue;
+}
+
+
+.fac3 {
+    font-size: 48px;
+    color: purple;
+}
+
+
+
+
+
+
+
+
+
+/* media query */
+@media(max-width :768px) {
+
+    input[type="text"] {
+        width: 200px;
+        padding: 6px 6px;
+        margin: 8px;
+        margin-bottom: 34px;
+
+        overflow: hidden;
+    }
+
+    input[type="number"] {
+        width: 200px;
+        padding: 6px 6px;
+        margin: 8px;
+        margin-bottom: 34px;
+
+        overflow: hidden;
+
+    }
+
+
+    .oop {
+        padding: 23px;
+        margin: auto;
+        text-align: center;
+        border: 3px solid red;
+        width: 80%;
+        height: 720px;
+        margin-top: 23px;
+        background: #008080;
+
+
+
+    }
+
+
+
+}
